@@ -1,0 +1,8 @@
+dstport,protocol,tag
+22,tcp,SSH
+25,tcp,Email
+80,tcp,Web
+110,tcp,Email
+443,TCP,SecureWeb
+53,udp,DNS
+3389,tcp,RDP

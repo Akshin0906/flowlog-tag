@@ -32,6 +32,9 @@
 
 ## How to Compile and Run the Program
 
+* Make sure you have the CSV Filepath (or it is present in your directory). 
+* Make sure you have the lookup file filepath (or it is present in your directory)
+
 ### Compile
 
 Open a terminal or command prompt, navigate to the directory containing your `.java` files, and run:

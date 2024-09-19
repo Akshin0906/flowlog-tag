@@ -78,7 +78,7 @@ public class FlowLogTagger {
                 if (parsed.length >= 3) {
                     String dstport = parsed[0].trim().toLowerCase();
                     String protocol = parsed[1].trim().toLowerCase();
-                    String tag = parsed[2].trim().toLowerCase();
+                    String tag = parsed[2].trim();
                     String key = dstport + "," + protocol;
                     combinationMap.put(key, tag);
                 }

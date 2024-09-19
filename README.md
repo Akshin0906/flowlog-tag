@@ -19,7 +19,7 @@
 
 - **Flow Log Format**: Supports only the default flow log format (version 2) as per AWS documentation.
 - **Protocol Mapping**: Recognizes protocol numbers 6 (TCP), 17 (UDP), and 1 (ICMP). Unknown protocol numbers are labeled as "unknown".
-- **Lookup File Format**: The lookup CSV file must have at least three columns: `dstport`, `protocol`, and `tag`, with a header row.
+- **File Format**: The lookup file must have at least three columns: `dstport`, `protocol`, and `tag`, with a header row. Files cannot have blank lines.
 - **Case Sensitivity**:
   - Matching of ports and protocols is case-insensitive.
   - Tags retain their original casing.

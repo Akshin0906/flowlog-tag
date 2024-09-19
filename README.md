@@ -73,8 +73,6 @@ Port,Protocol,Count
 110,tcp,1
 443,tcp,1
 53,udp,1
-
-
 3389,tcp,1
 8080,tcp,1
 23,tcp,1
